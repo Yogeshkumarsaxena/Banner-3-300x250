@@ -1,0 +1,282 @@
+
+@font-face {
+    font-family: 'DINProCondensedBold';
+    src:
+    	url(https://s0.2mdn.net/creatives/assets/2337175/DINProCondensedBold.woff),
+    	url(https://s0.2mdn.net/creatives/assets/2337175/DINProCondensedBold.eot?#iefix) format('embedded-opentype');
+    	font-style: normal;
+}
+@font-face {
+    font-family: 'DINProCondensedBoldItalic';
+    src:
+    	url(https://s0.2mdn.net/creatives/assets/2337175/DINProCondensedBoldItalic.woff),
+    	url(https://s0.2mdn.net/creatives/assets/2337175/DINProCondensedBoldItalic.eot?#iefix) format('embedded-opentype');
+    	font-style: normal;
+}
+body{
+
+	margin: 0;
+	padding: 0;
+	font-family: 'DINProCondensedBold';
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	font-kerning: none;
+}
+#ad{
+	height: 250px;
+	width: 300px;
+	overflow: hidden;
+	
+	position: absolute;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	border: 1px solid #000;
+}
+#default-bg{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 300px;
+	height: 250px;
+	opacity: 0;
+	z-index: 10;
+}
+#frame1{
+	top: 0;
+	left: 0;
+	width: 300px;
+	height: 250px;
+	z-index: 6;
+	position: absolute;
+}
+#light-blue{
+	top: 0px;
+	left: 0px;
+	width: 300px;
+	height: 250px;
+	position: absolute;
+	z-index: 6;
+}
+#bar{
+	width: 3px;
+	height: 250px;
+	background-color: #fff;
+	top: 0;
+	position: absolute;
+	right: 144px;
+	z-index: 8;
+	opacity: 1;
+}
+#dark-blue{
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	height: 250px;
+	width: 147px;
+	z-index: 7;
+}
+#left-bg{
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 300px;
+	height: 250px;
+	z-index: 7;
+	overflow: hidden;
+
+}
+#ps-logo{
+	position: absolute;
+	z-index: 7;
+	top: 3px;
+	left: 2px;
+	height: 19px;
+	width: 22px;
+
+
+}
+#hero{
+	position: absolute;
+	top: 50px;
+	left: 0;
+	z-index: 9;
+	height: 250px;
+	width: 172px;
+	opacity: 0;
+}
+#branding{
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 9;
+	height: 65px;
+	width: 158px;
+	opacity: 0;
+}
+#rating{
+	position: absolute;
+	width: 34px;
+	opacity: 0;
+	bottom: 7px;
+	left: 5px;
+	z-index: 9;
+}
+#logo{
+	position: absolute;
+	width: 97px;
+	top: 28px;
+	right: 24px;
+	z-index: 7;
+}
+#stroke-top{
+	position: absolute;
+	top: 0;
+	right: 74px;
+	height: 60px;
+	width: 0px;
+	overflow: hidden;
+	z-index: 8;
+	opacity: 0;
+}
+#stroke{
+	position: absolute;
+	width: 159px;
+	top: -25px;
+	right: -13px;
+	z-index: 8;
+}
+#strokeLeft{
+	position: absolute;
+	top: -35px;
+	left: -62px;
+	z-index: 8;
+	width: 159px;
+	height: 94px;
+	opacity: 0;
+}
+#avail{
+	position: absolute;
+	top: 97px;
+	right: 20px;
+	color: #fff;
+	z-index: 8;
+	text-transform: uppercase;
+	font-size: 20px;
+	line-height: 20px;
+	opacity: 0;
+	clip:rect(0px 100px 0px 0px );
+}
+#champians{
+	position: absolute;
+	top: 80px;
+	right: 38px;
+	color: #fff;
+	z-index: 8;
+	text-transform: uppercase;
+	font-size: 20px;
+	line-height: 20px;
+	opacity: 1;
+	clip:rect(0px 85px 40px 0px );
+}
+#champiansCenter{
+	position: absolute;
+	text-transform: uppercase;
+	font-size: 28px;
+	line-height: 1;
+	font-family: 'DINProCondensedBoldItalic';
+	color: #fff;
+	left: -160px;
+	top: 102px;
+	z-index: 8;
+	opacity: 0;
+}
+
+#underline{
+	position: absolute;
+	top: 143px;
+	right: 35px;
+	z-index: 8;
+	width: 85px;
+	height: 3px;
+	background-color: #fff;
+	opacity: 1;
+}
+#order-now{
+	position: absolute;
+	top:181px;
+	right: 121px;
+	z-index: 8;
+
+}
+#order-now button{
+	position: absolute;
+	width: 89px;
+	height: 15px;
+	text-transform: uppercase;
+	background-color: #e60064;
+	color: #fff;
+	border-style: none;
+	border-radius: 10px;
+	font-size: 9.5px;
+	font-family: 'DINProCondensedBold';
+	font-weight: normal;
+	letter-spacing: 0.08em;
+}
+#conditions{
+	position: absolute;
+	top: 223px;
+	right: 26px;
+	color: #fff;
+	z-index: 8;
+	text-transform: uppercase;
+	font-size: 7px;
+	line-height: 7px;
+	text-align: center;
+	opacity: 1;
+	white-space: nowrap;
+
+}
+
+#stroke-btm{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	z-index: 7;
+	width: 0px;
+	height: 40px;
+	overflow: hidden;
+	opacity: 0;
+}
+#stroke-copy{
+	position: absolute;
+	width: 150px;
+	right: -57px;
+	bottom: -32px;
+	
+}
+#mainExit{
+	width: 100%;
+	height: 100%;
+	cursor: pointer;
+	z-index: 999;
+	background-color: transparent;
+    position: absolute;
+    top:0;
+    left: 0;
+    display: none;
+    border: 0px #000 solid;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
